@@ -31,6 +31,14 @@ jobs:
         curl -L -o x86_64-release-posix-seh-ucrt.7z https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-rev1/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev1.7z
         7z x D:\a\buildQt\x86_64-release-posix-seh-ucrt.7z -oD:\a\buildQt
 
+    # 安装 Ninja
+    - name: Setup Ninja
+      run: |
+        cd ..  #Directory: D:\a\buildQt
+        mkdir -p ninja
+        curl -L -o ninja.zip https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip
+        unzip -q ninja.zip -d ./ninja
+
     # 构建Qt
     - name: Build Qt
       run: |

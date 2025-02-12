@@ -7,8 +7,8 @@ SET QT_VERSION=6.8.2
 :: 设置MinGW版本代号
 SET MinGW_VERSION=llvm-mingw19.1.7_64_UCRT_RP
 
-:: 设置编译器
-SET PATH=D:\a\buildQt\llvm-mingw-20250114-ucrt-x86_64\bin;%PATH%
+:: 设置编译器和Ninja
+SET PATH=D:\a\buildQt\llvm-mingw-20250114-ucrt-x86_64\bin;D:\a\buildQt\ninja;%PATH%
 
 :: 设置Qt文件夹路径
 SET QT_PATH=D:\a\buildQt\Qt
