@@ -14,11 +14,16 @@
 ## 仓库地址
 1. Github: https://github.com/yuanpeirong/buildQt
 
-## 目前已开放版本
+## 目前已支持Qt6版本
 1. Qt6.8.2 msvc2022_64     
 2. Qt6.8.2 msvc2022_64_RP
 3. Qt6.8.2 MinGW64
 4. Qt6.8.2 MinGW64_RP
 5. Qt6.8.2 LLVM-MinGW
 6. Qt6.8.2 LLVM-MinGW_RP
-7. Qt5所有版本正在测试中，完成后上传
+
+## 目前已支持Qt5版本
+1. Qt5.15.16 msvc2022_64     
+2. Qt5.15.16 msvc2022_64_RP
+3. Qt5.15.16 MinGW64
+4. Qt5.15.16 MinGW64_RP
