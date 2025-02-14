@@ -14,18 +14,27 @@
 ## 仓库地址
 1. Github: https://github.com/yuanpeirong/buildQt
 
-## 目前已支持Qt6版本
-1. Qt6.8.2 msvc2022_64     
-2. Qt6.8.2 msvc2022_64_RP
-3. Qt6.8.2 MinGW1420_64(UCRT)
-4. Qt6.8.2 MinGW1420_64_RP(UCRT)
-5. Qt6.8.2 LLVM-MinGW19.1.7
-6. Qt6.8.2 LLVM-MinGW19.1.7_RP
+## 目前已支持Qt6 完整版本
+1. Qt6.8.2 msvc2022_64
+2. Qt6.8.2 MinGW1310_64               (使用Qt官方默认编译器版本)
+3. Qt6.8.2 MinGW1420_64(UCRT)    
+4. Qt6.8.2 LLVM-MinGW17.0.6(UCRT)
+5. Qt6.8.2 LLVM-MinGW19.1.7(UCRT)     (使用Qt官方默认编译器版本)
 
-## 目前已支持Qt5版本
+## 目前已支持Qt6 RP版本
+1. Qt6.8.2 msvc2022_64_RP
+2. Qt6.8.2 MinGW1310_64_RP            (使用Qt官方默认编译器版本)
+3. Qt6.8.2 MinGW1420_64_RP(UCRT)
+4. Qt6.8.2 LLVM-MinGW17.0.6_RP(UCRT)  (使用Qt官方默认编译器版本)
+5. Qt6.8.2 LLVM-MinGW19.1.7_RP(UCRT)
+
+## 目前已支持Qt5 完整版本
 1. Qt5.15.16 msvc2022_64     
-2. Qt5.15.16 msvc2022_64_RP
-3. Qt5.15.16 MinGW810_64
-4. Qt5.15.16 MinGW810_64_RP
-5. ~~Qt5.15.16 MinGW1420_64(UCRT)~~
-6. Qt5.15.16 MinGW1420_64_RP(UCRT)
+2. Qt5.15.16 MinGW810_64              (使用Qt官方默认编译器版本)
+3. ~~Qt5.15.16 MinGW1420_64(UCRT)~~
+
+
+## 目前已支持Qt5 RP版本
+1. Qt5.15.16 msvc2022_64_RP
+2. Qt5.15.16 MinGW810_64_RP           (使用Qt官方默认编译器版本)
+3. Qt5.15.16 MinGW1420_64_RP(UCRT)
