@@ -18,8 +18,8 @@
 1. Qt6.8.2 msvc2022_64
 2. Qt6.8.2 MinGW1310_64               (使用Qt官方默认编译器版本)
 3. Qt6.8.2 MinGW1420_64(UCRT)    
-4. Qt6.8.2 LLVM-MinGW17.0.6(UCRT)
-5. Qt6.8.2 LLVM-MinGW19.1.7(UCRT)     (使用Qt官方默认编译器版本)
+4. Qt6.8.2 LLVM-MinGW17.0.6(UCRT)     (使用Qt官方默认编译器版本)
+5. Qt6.8.2 LLVM-MinGW19.1.7(UCRT)
 
 ## 目前已支持Qt6 RP版本
 1. Qt6.8.2 msvc2022_64_RP
