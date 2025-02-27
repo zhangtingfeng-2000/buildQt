@@ -6,6 +6,7 @@
 3. 主要构建Windows版本(使用MSVC、MinGW64、LLVM-MinGW三大编译器)
 4. 主要构建static版本
 5. 主要构建Release版本
+6. 主要构建64位版本
 
 ## 版本
 1. 无"RP"版本：从Qt完整源代码构建，构建绝大部分组件
