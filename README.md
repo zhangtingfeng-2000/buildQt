@@ -34,6 +34,9 @@
 2. Qt5.15.16 MinGW810_64              (使用Qt官方默认编译器版本)
 3. ~~Qt5.15.16 MinGW1420_64(UCRT)~~
 
+## 目前已支持Qt5 完整版本(32位)
+1. Qt5.15.16 msvc2022_32     
+2. Qt5.15.16 MinGW810_32              (使用Qt官方默认编译器版本)
 
 ## 目前已支持Qt5 RP版本
 1. Qt5.15.16 msvc2022_64_RP
@@ -51,3 +54,4 @@
 1. **msvc2022_64**：Visual Studio 2022 Developer Command Prompt v17.12.4
 2. **mingw1420_64_UCRT**：[x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev1.7z](https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-rev1/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev1.7z)
 3. **mingw810_64**：[8.1.0-1-202411201005x86_64-8.1.0-gdb-11.2.0-release-posix-seh-rt_v6-rev0.7z](https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw81/qt.tools.win64_mingw810/8.1.0-1-202411201005x86_64-8.1.0-gdb-11.2.0-release-posix-seh-rt_v6-rev0.7z) (Qt官方默认编译器版本)
+4. **mingw810_32**：[8.1.0-1-202411201005i686-8.1.0-gdb-11.2.0-release-posix-dwarf-rt_v6-rev0.7z](https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw81/qt.tools.win32_mingw810/8.1.0-1-202411201005i686-8.1.0-gdb-11.2.0-release-posix-dwarf-rt_v6-rev0.7z) (Qt官方默认编译器版本)
