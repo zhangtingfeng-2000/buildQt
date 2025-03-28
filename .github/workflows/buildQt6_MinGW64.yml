@@ -1,12 +1,12 @@
-name: build_Qt6.8.2_MinGW64
+name: build_Qt6.8.3_MinGW64
 
 on: workflow_dispatch
 #on: [push, pull_request]
 
 env:
-  QT_VERSION: 6.8.2
+  QT_VERSION: 6.8.3
   QT_VERSION2: 6.8
-  FILE_NAME: Qt_6.8.2-static-Release_mingw1420_64_UCRT
+  FILE_NAME: Qt_6.8.3-static-Release_mingw1420_64_UCRT
 
 jobs:
   windows_mingw64_static_release:
