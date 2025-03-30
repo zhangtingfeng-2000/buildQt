@@ -57,7 +57,7 @@ jobs:
         unzip -q qt-everywhere-src.zip -d ./${{env.QT_VERSION}}
 
         # 调用编译脚本
-        cmd.exe /c "call `"D:\a\buildQt\buildQt\buildQt6\build-Qt6msvc2022_64.cmd`""
+        cmd.exe /c "call `"D:\a\buildQt\buildQt\buildQt6\build-Qt6msvcStaticMT.cmd`""
 
     # 打包
     - name: Package binaries
